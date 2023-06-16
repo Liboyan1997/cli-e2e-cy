@@ -1,0 +1,27 @@
+{
+  "name": "cli-plugin-cypress",
+  "version": "1.0.0",
+  "description": "vue cli e2e-cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "cypress",
+    "e2e"
+  ],
+  "author": "dailao",
+  "license": "ISC",
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0 || ^5.0.0-0",
+    "cypress": "*"
+  },
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  },
+  "dependencies": {
+    "@vue/cli-shared-utils": "^5.0.8"
+  }
+}

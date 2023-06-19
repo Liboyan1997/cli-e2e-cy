@@ -8,7 +8,7 @@ module.exports = (api, options) => {
     usage: 'vue-cli-service test:e2e [options]',
     options: {
       '--headless': 'run in headless mode without GUI',
-      '--mode': 'specify the mode the dev server should run in. (default: production)',
+      '--mode': 'specify the mode the dev server should run in. (default: test)',
       '--url': 'run e2e tests against given url instead of auto-starting dev server',
       '-s, --spec': '(headless only) runs a specific spec file. defaults to "all"'
     },
@@ -61,7 +61,7 @@ module.exports = (api, options) => {
 }
 
 module.exports.defaultModes = {
-  'test:e2e': 'production'
+  'test:e2e': 'test'
 }
 
 function removeArg (rawArgs, argToRemove, offset = 1) {

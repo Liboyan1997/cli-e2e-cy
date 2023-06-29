@@ -1,7 +1,7 @@
 {
   "name": "@vue/cli-plugin-cypress",
   "version": "1.0.0",
-  "description": "vue cli e2e-cypress",
+  "description": "vue-cli plugin e2e-cypress",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,9 @@
   },
   "dependencies": {
     "@vue/cli-shared-utils": "^5.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liboyan1997/cli-e2e-cy"
   }
 }

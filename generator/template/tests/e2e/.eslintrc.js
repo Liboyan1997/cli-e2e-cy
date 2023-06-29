@@ -1,4 +1,5 @@
 module.exports = {
+  //取消eslint 报错
   plugins: [
     'cypress'
   ],

@@ -1,5 +1,5 @@
 {
-  "name": "cli-plugin-cypress",
+  "name": "@vue/cli-plugin-cypress",
   "version": "1.0.0",
   "description": "vue cli e2e-cypress",
   "main": "index.js",

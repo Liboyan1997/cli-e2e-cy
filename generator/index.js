@@ -1,8 +1,5 @@
 module.exports = api => { 
-  api.render('./template', {
-    hasESLint: api.hasPlugin('eslint')
-  })
- 
+  api.render('./template')
     api.extendPackage({
       devDependencies: {
         cypress: require('../package.json').devDependencies.cypress
